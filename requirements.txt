@@ -1,0 +1,25 @@
+# Core FastAPI and server
+fastapi
+uvicorn[standard]
+
+# Security and Authentication
+passlib[argon2]
+python-jose[cryptography]
+
+
+# Redis for caching and pub/sub (optimized with connection pooling)
+redis
+aioredis
+# Database and data processing
+pandas
+numpy
+
+# Configuration and environment
+python-dotenv
+pydantic-settings
+
+python-multipart
+
+requests
+
+slowapi
